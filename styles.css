@@ -1,0 +1,72 @@
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+.controls {
+    scale: 200%;
+    display: flex;
+    cursor: pointer;
+}
+
+.select {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+select {
+    height: 40px;
+    width: 200px;
+    background: rgb(236, 236, 236);
+    border: none;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    background: #222222;
+}
+
+.dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: #770000;
+    margin: 2px;
+}
+
+.dot:hover {
+    background: #aa0000;
+}
+
+.label {
+    font: 1.2em "Fira Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+

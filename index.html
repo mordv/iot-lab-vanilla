@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SSYP Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div class="chageRelaives">
+    <label for="select" class="label">Выбор Режима</label>
+    <div class="select">
+        <select name="select" id="select">Mode Change
+            <option value="snake">Змейка</option>
+            <option value="draw">Рисовалка</option>
+        </select>
+    </div>
+</div>
+<div id="container" class="container">
+    <div id="controls" class="controls">
+        <button id="btnLeft">⬅️</button>
+        <div style="display: flex; flex-direction: column">
+            <button id="btnUp">⬆️</button>
+            <button id="btnDown">⬇️</button>
+        </div>
+        <button id="btnRight">➡️</button>
+    </div>
+    <div id="field" class="field" style="display: none"></div>
+</div>
+
+
+</body>
+<script type="module" src="./script.js"></script>
+</html>
